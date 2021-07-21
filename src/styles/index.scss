@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto&display=swap');
 
 body {
   margin: 0;
@@ -13,6 +14,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h5, h6, p, a,  {
+
+ h5, h6, p, a {
   font-family: Lato;
+}
+
+h3 {
+  font-family: Bebas Neue;
+}
+
+h4 {
+  font-family: Roboto;
 }

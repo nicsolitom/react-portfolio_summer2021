@@ -12,27 +12,58 @@
 
 .App-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.TitleContainer{
+  width: 100%;
+  margin: 2rem 0 0 2rem;
+  text-align: left;
+  justify-self: left;
+}
+
+h3.MyName{
+  display: inline;
+  font-size: 2.5rem;
+  margin: 0px 0px 0px 0px;
+}
+
+h3.MyLocation{
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0px 0px 0px 10px;
+}
+
+hr.WhiteLine{
+  margin: 0 0 0 0;
+}
+
+h4.MyTitle{
+  font-size: 1.1rem;
+  margin: 2px 0 0 0
+}
+
 .navbar {
   background-color: rgba(255, 0, 0, 0) !important;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin: 0 0 2rem 0;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-end;
 }
+
 .NavLink,
 .NavLink:link,
 .NavLink:visited {
   color: white;
   text-decoration: none;
 }
+
 .NavLink:hover {
-  color: #160911 !important;
+  color: #d30c5f !important;
 }
+
 .App-footer {
   display: flex;
   flex-direction: column;
