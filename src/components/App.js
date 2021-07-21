@@ -57,7 +57,7 @@ function App() {
         </Router>
       </header>
       <footer className="App-footer">
-        <h6>React-routing exercise - Nic Solitom &copy; 2020</h6>
+        <h6> Nic Solitom &copy; 2021</h6>
       </footer>
     </div>
   );
