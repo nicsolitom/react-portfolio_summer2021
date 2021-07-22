@@ -1,37 +1,35 @@
 .ProjectContainer {
   display: flex;
   width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  // background: white;
+  margin: auto;
 }
 
 .Projects {
-  display: flexbox;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   // align-items: center;
 }
 
-.picturecontainer {
-  width: 100%;
-  margin: 0 auto 120px;
-  max-width: 1100px;
-}
+
 // ________
 
 .Projects img {
+  max-width: 300px;
   margin: 0px;
   border: 0px;
   cursor: pointer;
-  transform: scale(0.7);
+  transform: scale(1);
   transition: 0.5s;
 }
 
 .Projects img:hover {
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 // ________

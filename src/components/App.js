@@ -49,13 +49,13 @@ function App() {
               >
                 ABOUT ME
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 to="/credit"
                 className="NavLink btn btn-outline-black ml-2"
                 type="button"
               >
                 MY PATH
-              </NavLink>
+              </NavLink> */}
             </form>
           </nav>
 

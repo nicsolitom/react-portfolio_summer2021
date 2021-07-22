@@ -8,11 +8,11 @@ export default function About() {
         <br />
         <p>Links to my pages online:</p>
         <a href="https://github.com/nicsolitom">
-          <i class="fab fa-github"></i> GitHub
+          <i class="fab fa-github"></i> 
         </a>
         <br />
-        <a href="https://www.nicsolitom.com">
-          <i class="fas fa-hand-spock"></i> nicsolitom.com
+        <a href="https://www.linkedin.com/in/nicsolitom/">
+          <i class="fab fa-linkedin"></i> 
         </a>
       </div>
     );
