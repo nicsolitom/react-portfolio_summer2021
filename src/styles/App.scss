@@ -36,7 +36,7 @@ h3.MyLocation{
 }
 
 h4.MyTitle{
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 2px 0 0 0
 }
 
@@ -67,8 +67,30 @@ hr.WhiteLine{
 
 .App-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: white;
   margin: auto auto 10px;
   justify-content: flex-end;
 }
+a,
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+a:hover {
+  color: #d30c5f !important;
+}
+
+i.fa-github {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+i.fa-linkedin {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+

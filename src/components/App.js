@@ -72,6 +72,12 @@ function App() {
       
       <footer className="App-footer">
         {/* <h6> Nic Solitom &copy; 2021</h6> */}
+        <a href="https://github.com/nicsolitom">
+          <i class="fab fa-github"></i> 
+        </a>
+        <a href="https://www.linkedin.com/in/nicsolitom/">
+          <i class="fab fa-linkedin"></i> 
+        </a>
       </footer>
     </div>
   );
