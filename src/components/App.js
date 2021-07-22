@@ -71,7 +71,7 @@ function App() {
         </Router>
       
       <footer className="App-footer">
-        <h6> Nic Solitom &copy; 2021</h6>
+        {/* <h6> Nic Solitom &copy; 2021</h6> */}
       </footer>
     </div>
   );

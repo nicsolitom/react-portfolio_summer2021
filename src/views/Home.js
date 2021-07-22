@@ -6,8 +6,6 @@ import '../styles/Home.scss'
 export default function Home() {
   return (
     <div className="HomeContainer">
-        <h5>PUT PROJECTS <br></br>IN GRID HERE</h5><br />
-        
 
       </div>
     );
