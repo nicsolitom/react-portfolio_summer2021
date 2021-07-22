@@ -71,13 +71,19 @@ function App() {
         </Router>
       
       <footer className="App-footer">
-        {/* <h6> Nic Solitom &copy; 2021</h6> */}
-        <a href="https://github.com/nicsolitom">
+
+        <a href="https://github.com/nicsolitom" target="blank">
           <i class="fab fa-github"></i> 
         </a>
-        <a href="https://www.linkedin.com/in/nicsolitom/">
+
+        <a href="https://www.linkedin.com/in/nicsolitom/" target="blank">
           <i class="fab fa-linkedin"></i> 
         </a>
+
+        <a href="mailto:nicsolitom@gmail.com?subject=Hello from your website">
+          <i class="fas fa-paper-plane"></i> 
+        </a>
+
       </footer>
     </div>
   );
