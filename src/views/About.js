@@ -19,11 +19,13 @@ export default function About() {
           <br></br>
           This led me to study Interactive Communications at Berghs School Of
           Communication (Stockholm),
-          <br></br> as well as Web Development at DCI (Berlin).
+          <br></br> followed by Web Development at DCI (Berlin).
           <br></br>
           <br></br>
-          I understood early my interest for design, technlogy and communication<br></br>
+          I understood early my interest for design, technology and communication<br></br>
           - and can barely wait to see what adventures lies ahead!
+          <br></br><br></br>
+      
         </h4>
       </div>
 
@@ -51,7 +53,7 @@ export default function About() {
         <h4 className="PathTitle">MediaGymnasiet</h4>
         <h4 className="PathInfo">
           I studied: 3 years learning while exploring all 9 different mediums. The last year focused on Tv-Production, but here I first began to dance with Graphic Design, Web Design, Video Editing and more..<br></br>
-          2008 - 2009 > Stockholm
+          2002 - 2005 > Stockholm
         </h4>
       </div>
 

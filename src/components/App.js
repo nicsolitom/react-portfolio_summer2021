@@ -80,7 +80,7 @@ function App() {
           <i class="fab fa-linkedin"></i> 
         </a>
 
-        <a href="mailto:nicsolitom@gmail.com?subject=Hello from your website">
+        <a href="mailto:nicsolitom@gmail.com?subject=Hello from your website" target="blank">
           <i class="fas fa-paper-plane"></i> 
         </a>
 
