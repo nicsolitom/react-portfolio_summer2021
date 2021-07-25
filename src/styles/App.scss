@@ -2,8 +2,6 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 .App {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   text-align: center;
 
@@ -72,6 +70,7 @@ hr.WhiteLine{
 
 .footer {
   position: relative;
+  margin-top: 2rem;
   bottom: 1rem;
 }
 
