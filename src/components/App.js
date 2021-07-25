@@ -70,8 +70,8 @@ function App() {
           </Switch>
         </Router>
       
-      <footer className="App-footer">
-
+      <footer className="footer">
+        <div className="footerlinks">
         <a href="https://github.com/nicsolitom" target="blank">
           <i class="fab fa-github"></i> 
         </a>
@@ -83,7 +83,7 @@ function App() {
         <a href="mailto:nicsolitom@gmail.com?subject=Hello from your website" target="blank">
           <i class="fas fa-paper-plane"></i> 
         </a>
-
+        </div>
       </footer>
     </div>
   );

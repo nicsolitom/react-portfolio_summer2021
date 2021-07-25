@@ -4,7 +4,13 @@
 .App {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   text-align: center;
+
+  background: url(../images/roots_small_nigredo.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+
 }
 
 .App-header {
@@ -64,13 +70,17 @@ hr.WhiteLine{
   box-shadow: none;
 }
 
-.App-footer {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  margin: auto auto 10px;
-  justify-content: flex-end;
+.footer {
+  position: relative;
+  bottom: 1rem;
 }
+
+.footerlinks {
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
 a,
 a:link,
 a:visited {
@@ -99,6 +109,3 @@ i.fa-paper-plane {
   margin-left: 1rem;
 }
 
-.App-footer {
-  padding-bottom: 10px;
-}
